@@ -27,12 +27,9 @@ def reg_check(name, tel, reg, year, numbers):
         return False
 
 if reg_check(name, tel, reg, year, numbers) == True:
-    #file = open("H:\Pycharm\CS work\car_reg.txt", "a+")
-    #file.writelines[name, tel, reg, year, numbers]
-    #file.close()
     print("Registration Complete")
 elif reg_check(name, tel, reg, year, numbers) == False:
-    print("incorrect")
+    print("Incorrect")
 
 
 #print(name, tel, reg, year, year2, reg[5:8])
