@@ -1,7 +1,7 @@
 def quadsolver():
-    a = float(input("input a:"))
-    b = float(input("input b:"))
-    c = float(input("input c:"))
+    a = float(input("Input a:"))
+    b = float(input("Input b:"))
+    c = float(input("Input c:"))
     d= b*b - 4*a*c
     if d == 0:
         x1 = -b/(2*a)
@@ -12,6 +12,12 @@ def quadsolver():
         x2 = (-b-d ** 0.5) / (2 * a)
         print(x1,x2)
     else:
-        print("there is nor real solution")
+        print("There is no real solution")
 
-quadsolver()
+
+query = input("Would you like to input values: Y/N").lower()
+while query == 'y':
+    quadsolver()
+    query = input("Would you like to input values: Y/N").lower()
+else:
+    quit()
