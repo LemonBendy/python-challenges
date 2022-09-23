@@ -1,23 +1,33 @@
-import random
+from random import randint
 
-def roller():
-    roll = random.randint(0,5)
-    if roll == 1:
-        icon = 'Cherry'
-    elif roll == 2:
-        icon = 'Bell'
-    elif roll == 3:
-        icon = 'Lemon'
-    elif roll == 4:
-        icon = 'Orange'
-    elif roll == 5:
-        icon = 'Star'
-    elif roll == 6:
-        icon == 'Skull'
-    return icon
+playing = True
+money = 100
 
-go = input("Would you like to roll? Y/N")
+def roll(roll_number):
+  match roll_number:
+    case 0:
+      return "cherry"
+    case 1:
+      return "bell"
+    case 2:
+      return "lemon"
+    case 3:
+      return "orange"
+    case 4:
+      return "star"
+    case 5:
+      return "skull"
 
-if go == 'Y':
-    for i in range(0,3):
-        print(roller())
+
+while playing == True:
+    player = input("would you like to play: Y/N")
+    if player == 'Y' or 'y':
+        print(money + " -20")
+        money = money - 20
+        roll1 = str(roll(randint(0,5)))
+        roll2 = str(roll(randint(0,5)))
+        roll3 = str(roll(randint(0,5)))
+        print(roll1 + ' : ' + roll2 + ' : ' + roll3)
+        if roll1 and roll2 == "star" or roll2 and roll3 == "star" or roll1 and roll3 == "star":
+            print("whoop")
+
