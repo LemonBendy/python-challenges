@@ -55,7 +55,7 @@ while playing:
 	print("You have " + credit_calc(money))
 	if money > 0:
 		player = str(input("Would you like to play: Y/N"))
-		if player == 'y' or 'Y':
+		if player == 'y' or player == 'Y':
 			print("-20p")
 			print(". . . rolling . . .")
 			time.sleep(1)
@@ -65,7 +65,7 @@ while playing:
 			r3 = str(roll(randint(0, 5)))
 			print(r1 + ' : ' + r2 + ' : ' + r3)
 			if r1 == "skull" and r2 == "skull" and r3 == "skull":
-				money = bankrupt(money)
+				money = bankrupt()
 				time.sleep(0.4)
 			elif r1 == "skull" and r2 == r1 or r2 == "skull" and r3 == r2 or r1 == "skull" and r3 == r1:
 				money = db_skull(money)
@@ -88,7 +88,7 @@ while playing:
 			else:
 				time.sleep(0.4)
 				print("unlucky, better luck next time")
-		elif player == 'n' or 'N':
+		elif player == 'n' or player == 'N':
 			print("thanks for playing")
 			sys.exit()
 	else:
