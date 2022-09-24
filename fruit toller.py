@@ -1,7 +1,7 @@
 from random import randint
 import time
 import sys
-
+count = 0
 playing = True
 money = 100
 
@@ -56,6 +56,7 @@ while playing:
 	if money > 0:
 		player = str(input("Would you like to play: Y/N"))
 		if player == 'y' or player == 'Y':
+			count = count + 1
 			print("-20p")
 			print(". . . rolling . . .")
 			time.sleep(1)
@@ -90,7 +91,9 @@ while playing:
 				print("unlucky, better luck next time")
 		elif player == 'n' or player == 'N':
 			print("thanks for playing")
+			print("You played " + str(count) + " rounds")
 			sys.exit()
 	else:
-		print("You have can't afford to go again")
+		print("You have can't afford to go again \n try again next time...")
+		print("You played " + str(count) + " rounds")
 		sys.exit()
