@@ -1,8 +1,8 @@
-transmission = int((input("How many numbers would you like to convert:")))
+iteration = int((input("How many numbers would you like to convert:")))
 
 
-def binaryconvert ():
-    num = int(input("Input your denary number:"))
+def denary_to_binary():
+    num = int(input(("Input your denary number:")))
     binary = str("")
 
     while num != 0:
@@ -10,9 +10,8 @@ def binaryconvert ():
         n2 = num%2
         binary = str(n2) + binary
         num = n1
-
     return binary
 
-for i in range(transmission):
+for i in range(iteration):
     bin = binaryconvert()
     print("your binary number is: " + bin)
