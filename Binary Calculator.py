@@ -1,16 +1,16 @@
 
 
 # def binary_to_hex(): for later use
-
+#   return hex
 
 # def hex_to_binary(): for later use
-
+#   return binary
 
 # def denary_to_hex(): for later use
-
+#   return hex
 
 # def hex_to_denary(): for later use
-
+#   return denary
 
 def denary_to_binary():
     num = int(input("Input your denary number:"))
