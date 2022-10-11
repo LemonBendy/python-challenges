@@ -1,4 +1,5 @@
-
+from random import randint, random
+from time import sleep
 
 # def binary_to_hex(): for later use
 #   return hex
@@ -12,6 +13,8 @@
 # def hex_to_denary(): for later use
 #   return denary
 
+
+##FUNCTIONS
 def denary_to_binary():
     num = int(input("Input your denary number:"))
     binary = str("")
@@ -35,10 +38,23 @@ def binary_to_denary():
         power = power*2
     return denary
 
-    
-select = input("Would you like to convert (B)inary or (D)enary: ")
+#MAIN BODY
 
-if select.lower() == 'd':
-    print(denary_to_binary())
-elif select.lower() == 'b':
-    print(binary_to_denary())
+select = (input("What would you like to translate: \n"
+               "1: Denary to Binary:1: \n"
+               "2: Binary to Denary:2: \n"
+               "3:       Quit      :3: \n"
+               "====================== \n"
+               ": "))
+
+if select == 1:
+     num = str(denary_to_binary())
+     print("Binary Value : " + num)
+elif select == 2:
+    num = str(binary_to_denary())
+    print("Denary Value : " + num)
+elif select == 3 or select == "":
+    print("Quitting...")
+    sleep(1)
+    print("Done")
+    quit()
