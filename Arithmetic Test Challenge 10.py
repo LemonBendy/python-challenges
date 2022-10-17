@@ -1,11 +1,10 @@
-from re import sub
 import secrets
 from random import randint
 
 
 i = 0
 y = 1
-#name = input("Name:")
+name = input("Name:")
 
 
 def random_int(x):
