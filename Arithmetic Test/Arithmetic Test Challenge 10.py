@@ -13,6 +13,17 @@ def write_file(data) -> None:
     with open("scores.json", "w") as f:
         json.dump(results_arr, f, indent=2)
 
+        
+def print_leaderboard():
+    data = load_file()
+    accuracies = {key: value["correct"] / (value["incorrect"] + value["correct"]) for key, value in data.items()}
+    accuracy_tuples = [(k, v) for k, v in accuracies.items()]
+    sorted_names = [n[0] for n in list(reversed(sorted(accuracy_tuples, key=lambda i: i[1])))]
+ 
+    for name in sorted_names:
+        print(f"\033[32m{name}\033[0m\n-> Correct: {data[name]['correct']}\n-> Incorrect: {data[name]['incorrect']}")
+        print(f"-> Accuracy: {round(accuracies[name] * 100, 2)}%\n")
+
 
 def random_int(x):
     n1 = randint(0, x)
