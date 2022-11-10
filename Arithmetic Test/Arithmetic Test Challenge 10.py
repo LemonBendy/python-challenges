@@ -4,13 +4,13 @@ from random import randint
 
 
 def load_file() -> object:
-    with open("scores.json", "r") as f:
+    with open("Arithmetic Test\scores.json", "r") as f:
         results_arr = json.load(f)
     return results_arr
 
 
 def write_file(data) -> None:
-    with open("scores.json", "w") as f:
+    with open("Arithmetic Test\scores.json", "w") as f:
         json.dump(results_arr, f, indent=2)
 
         
@@ -68,7 +68,7 @@ def select(num, question):
 name = input("Name: ")
 
 correct = 0
-questions = 3
+questions = 1
 
 for x in range(questions):
     rand = randint(0, 3)
@@ -93,4 +93,4 @@ else:
 write_file(results_arr)
 print_leaderboard()
 
-# Worked on by Ryan and Ben
+# Worked on by Ryan and Ben in personal tasks 18/10/22
