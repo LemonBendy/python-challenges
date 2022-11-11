@@ -3,3 +3,4 @@ include/*
 Scripts/*
 *.xml
 *.xml
+.idea/workspace.xml
