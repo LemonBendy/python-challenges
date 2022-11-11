@@ -27,7 +27,8 @@ def add_new():
         print("Invalid Data Input, TRY AGAIN")
     main()
 
-def export()
+def export():
+    print("not yet") #TO DO
 
 def main():
     print("================\n   1. Search \n   2. Add New \n   3. Export Original Dictionary \n   4. Leave \n================\n")
