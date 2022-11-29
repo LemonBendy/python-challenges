@@ -1,12 +1,13 @@
-a = bool(1)
-b = bool(1)
-c = bool(0)
-x = 0
+square = [[0, 1, 2, 3, 4, 5],
+          [1, "A", "B", "C", "D", "E"],
+          [2, "F", "G", "H", "I", "J"],
+          [3, "K", "L", "M", "N", "O"],
+          [4, "P", "Q", "R", "S", "T"],
+          [5, "U", "V", "W", "X", "Y"],
+          [6, "Z", "?", " ", "@", "."]]
 
-if (a or b) and (not(c)):
-    print("X = 1")
-    x = 1
-else:
-    print("X = 0")
-    x = 0
-
+for v in range(0, 5):
+    for c in range(0,6):
+        print(f"  {square[c][v]}  ", end="|")
+    print()
+    print("------------------------------------")
