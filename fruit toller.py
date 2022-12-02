@@ -27,23 +27,19 @@ def roll(roll_number):
 
 
 def double_reward(amount):
-	moneys = amount + 70
-	return moneys
+	return amount + 70
 
 
 def triple_reward(amount):
-	moneys = amount + 120
-	return moneys
+	return amount + 120
 
 
 def bell_bonus(amount):
-	moneys = amount + 520
-	return moneys
+	return amount + 520
 
 
 def bankrupt():
-	moneys = 0
-	return moneys
+	return 0
 
 
 def db_skull(amount):
