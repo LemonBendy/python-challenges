@@ -19,43 +19,34 @@ def show_board():  # prints the board
 
 def update_board(player):  # handles board updates and will return x and y pos for check_winner()
     global board
+    print(f"Current Player is '{player}'")
     column = input("Which Column: ")
     match column.lower():
         case "a":
             for i in range(0, 5):
                 if board[4 - i][0] == "0":
                     board[4 - i][0] = player
-                    positionx = 0
-                    positiony = 4 - i
-                    return positionx, positiony
+                    return
         case "b":
             for i in range(0, 5):
                 if board[4 - i][1] == "0":
                     board[4 - i][1] = player
-                    positionx = 1
-                    positiony = 4 - i
-                    return positionx, positiony
+                    return
         case "c":
             for i in range(0, 5):
                 if board[4 - i][2] == "0":
                     board[4 - i][2] = player
-                    positionx = 2
-                    positiony = 4 - i
-                    return positionx, positiony
+                    return
         case "d":
             for i in range(0, 5):
                 if board[4 - i][3] == "0":
                     board[4 - i][3] = player
-                    positionx = 3
-                    positiony = 4 - i
-                    return positionx, positiony
+                    return
         case "e":
             for i in range(0, 5):
                 if board[4 - i][4] == "0":
                     board[4 - i][4] = player
-                    positionx = 4
-                    positiony = 4 - i
-                    return positionx, positiony
+                    return
         case _:
             print(f"'{column}' is not a column, you have missed your go")
             quit_condition = input("Would you like to quit Y/N: ")
@@ -64,17 +55,36 @@ def update_board(player):  # handles board updates and will return x and y pos f
             main()
 
 
-def check_winner(xvalue, yvalue, player):  # going to be complicated, because 2D lists
-    def horizontal(x, char):
-        print(x + char)
-        # checks horizontal
+def check_winner(player):  # going to be complicated, because 2D lists
+    global board
 
-    def vertical(y, char):
-        print(y + char)
-        # checks vertical
+    def horizontal(char):
+        # Horizontal checker
+        for j in range(0, 5):
+            for i in range(3, 5):
+                if (board[j][i] == board[j][i - 1] ==
+                        board[j][i - 2] == board[j][i - 3] == char):
+                    return True
 
-    horizontal(xvalue, player)
-    vertical(yvalue, player)
+    def vertical(char):
+        for i in range(0, 5):
+            for j in range(3, 5):
+                if (board[j][i] == board[j - 1][i] ==
+                        board[j - 2][i] == board[j - 3][i] == char):
+                    return True
+
+    def diagonal(char):
+        for i in range(0, 4):
+            for j in range(0, 3):
+                if (board[j][i] == board[j - 1][i - 1] ==
+                        board[j - 2][i - 2] == board[j - 3][i - 3] == char or
+                        board[j - 3][i] == board[j - 2][i - 1] ==
+                        board[j - 1][i - 2] == board[j][i - 3] == char):
+                    return True
+
+    if not horizontal(player) and not vertical(player) and not diagonal(player):
+        return
+    return True
 
 
 def menu():
@@ -83,7 +93,7 @@ def menu():
           f"What would you like to do:  \n"
           f"      1. Start Game         \n"
           f"      2. Leave Game         ")
-    selection = input(f">>>>")
+    selection = input(f">>>> :")
     match selection:
         case '1':
             main()
@@ -93,15 +103,21 @@ def menu():
 
 
 def main():  # main function to run the game
-    characters = ['x', 'y']
+    characters = ['X', 'Y']
     character = random.choice(characters)
     while True:
-        if character == 'x':
-            character = 'y'
+        if character == 'X':
+            character = 'Y'
         else:
-            character = 'x'
+            character = 'X'
         show_board()
         update_board(character)
-    menu()
+        if check_winner(character):
+            break
+    print("\n" * 20)
+    print("The winning board is : ")
+    show_board()
+    print("Thanks for Playing!")
+
 
 menu()
