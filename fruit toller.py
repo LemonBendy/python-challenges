@@ -43,8 +43,7 @@ def bankrupt():
 
 
 def db_skull(amount):
-	moneys = amount - 80
-	return moneys
+	return amount - 80
 
 
 while playing:
@@ -57,9 +56,7 @@ while playing:
 			print(". . . rolling . . .")
 			time.sleep(1)
 			money = money - 20
-			r1 = str(roll(randint(0, 5)))
-			r2 = str(roll(randint(0, 5)))
-			r3 = str(roll(randint(0, 5)))
+			r1, r2, r3 = str(roll(randint(0, 5))), str(roll(randint(0, 5))), str(roll(randint(0, 5)))
 			print(r1 + ' : ' + r2 + ' : ' + r3)
 			if r1 == "skull" and r2 == "skull" and r3 == "skull":
 				money = bankrupt()
@@ -75,13 +72,11 @@ while playing:
 			elif r1 == r2 and r1 == r3:
 				money = triple_reward(money)
 				time.sleep(0.4)
-				print("triple ripple")
-				print(". . . +£1 . . .")
+				print(f"triple ripple\n. . . +£1 . . .")
 			elif r1 == r2 or r2 == r3 or r1 == r3:
 				money = double_reward(money)
 				time.sleep(0.4)
-				print("double trouble")
-				print(". . . +50p . . .")
+				print(f"double trouble\n. . . +50p . . .")
 			else:
 				time.sleep(0.4)
 				print("unlucky, better luck next time")
