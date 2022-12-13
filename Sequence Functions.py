@@ -32,8 +32,7 @@ def fib(n):
             n2 = n3
         return n3
 
-
-num = int(input("Input your number: "))
-print(fib(num))
+#
+print(fib(int(input("INPUT NUMBER : "))))
 
 
