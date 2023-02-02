@@ -47,12 +47,17 @@ def update_board(player):  # handles board updates and will return x and y pos f
                 if board[4 - i][4] == "0":
                     board[4 - i][4] = player
                     return
+        case 'r':
+            restart_condition = input("Would you like to restart Y/N: ")
+            if restart_condition.lower() == 'y':
+                main()
+            main()
         case _:
-            print(f"'{column}' is not a column, you have missed your go")
-            quit_condition = input("Would you like to quit Y/N: ")
+            quit_condition = input(f"Would you like to quit Y/N: ")
             if quit_condition.lower() == 'y':
                 sys.exit()
             main()
+
 
 
 def check_winner(player):  # going to be complicated, because 2D lists
@@ -73,16 +78,17 @@ def check_winner(player):  # going to be complicated, because 2D lists
                         board[j - 2][i] == board[j - 3][i] == char):
                     return True
 
-    def diagonal(char):
-        for i in range(0, 4):
-            for j in range(0, 3):
-                if (board[j][i] == board[j - 1][i - 1] ==
-                        board[j - 2][i - 2] == board[j - 3][i - 3] == char or
-                        board[j - 3][i] == board[j - 2][i - 1] ==
-                        board[j - 1][i - 2] == board[j][i - 3] == char):
-                    return True
+    #def diagonal(char):
+    #    global board
+    #    for row in range(0, 2):
+    #        for col in range(0, 3):
+    #            row = int(row)
+    #            col = int(col)
+    #            if board[row, col] != 0 and board[row, col] == board[(row + 1), (col + 1)] == board[(row + 2), (col + 2)] == board[(row + 3), (col + 3)] == board[(row + 4), (col + 4)]:
+    #                return board[row, col]
+    #                return True
 
-    if not horizontal(player) and not vertical(player) and not diagonal(player):
+    if not horizontal(player) and not vertical(player): #  and not diagonal(player):
         return
     return True
 
@@ -98,7 +104,7 @@ def menu():
         case '1':
             main()
         case '2':
-            print("thanks for playing!")
+            print("Thanks for playing!")
             sys.exit()
 
 
@@ -115,6 +121,7 @@ def main():  # main function to run the game
         if check_winner(character):
             break
     print("\n" * 20)
+    print(f"'{character}' Won the Game!")
     print("The winning board is : ")
     show_board()
     print("Thanks for Playing!")
