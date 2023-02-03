@@ -12,3 +12,5 @@ Scripts/*
 .idea/workspace.xml
 *.iml
 *.xml
+*.xml
+.idea/CS work.iml
