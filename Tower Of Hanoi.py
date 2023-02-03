@@ -20,5 +20,3 @@ def tower_of_hanoi(numdisks, frm_disc, to_disc, aux_disc):
 
 numdisks = int(input("INPUT NUMBER OF DISKS: "))
 tower_of_hanoi(numdisks, "A", "C", "B")
-
-
