@@ -1,4 +1,6 @@
 from tkinter import *
+from tkinter import messagebox
+
 
 def calculate(f, w, h):
     h = float(h.get())
@@ -6,11 +8,13 @@ def calculate(f, w, h):
     bmi = w/(h*h)
     bmi = round(bmi, 2)
     result = f"Your result is: {str(bmi)}"
-    messagebox = Tk()
-    messagebox.geometry("200x200")
-    messagebox.title("BMI Value")
-    messageboxLabel = Label(messagebox, text=result)
-    messageboxLabel.grid(row=0, column=0, padx=10, pady=10, sticky="N")
+    messagebox.showinfo(title="BMI value", message=result)
+    yayornay = messagebox.askyesno(title="Retry?", message="Would you like to start again?")
+    if yayornay==True:
+        f.destroy()
+        CreateWindow()
+    else:
+        print("none")
 
 
 
