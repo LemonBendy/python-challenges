@@ -2,7 +2,7 @@ from tkinter import *
 
 userForm = Tk()
 userForm.title("Testing GUI")
-userForm.geometry("70x200")
+userForm.geometry("200x400")
 timerTicks = 0
 timings1 = [0, 6, 9, 12]
 
@@ -63,8 +63,7 @@ def turnOff(C, cRed, cAmber, cGreen):
     C.itemconfig(cGreen, fill=Lights[0])
 
 
-C = Canvas(userForm, bg="grey", height=170, width=70)
-# coord = 10, 50, 240, 210
+C = Canvas(userForm, bg="pink", height=170, width=70)
 Top = 10
 Left = 10
 Size = 50
@@ -76,8 +75,7 @@ C.pack()
 Lights = {1: "red", 2: "yellow", 3: "green", 0: "black"}
 turnOff(C, cRed, cAmber, cGreen)
 
-C2 = Canvas(userForm, bg="grey", height=170, width=70)
-# coord = 10, 50, 240, 210
+C2 = Canvas(userForm, bg="purple", height=170, width=70)
 Top2 = 10
 Left2 = 10
 Size2 = 50
