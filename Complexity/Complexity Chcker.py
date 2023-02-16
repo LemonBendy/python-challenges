@@ -46,29 +46,54 @@ def memMesureRec(num):
     tracemalloc.stop()
     return (peak+current)/2
 
-def timeMeasure(num):
+def timeMeasureItr(num):
     start = timeit.default_timer()
     nth_fibo = FibonacciItr(num)
     end = timeit.default_timer()
-    t = (end -start)*1000000 # time in microseconds. To convert it milliseconds multiply times 1000, and for second multiply
+    t = (end -start) # time in microseconds. To convert it milliseconds multiply times 1000, and for second multiply
     return t
 
 
-def graph():
+def timeMeasureRec(num):
+    start = timeit.default_timer()
+    nth_fibo = FibonacciRec(num)
+    end = timeit.default_timer()
+    t = (end -start) # time in microseconds. To convert it milliseconds multiply times 1000, and for second multiply
+    return t
+
+
+
+def graph_mem():
     x1 = []
     y1 = []
     y2 = []
-    for i in range(0, 300):
+    for i in range(0, 30):
         x1.append(i)
         y1.append(memMesureItr(i))
         y2.append(memMesureRec(i))
     plt.plot(x1, y1, ls = ':', label="Iteration")
     plt.plot(x1,y2, ls='-', label="Recursion")
-    plt.grid()
+    plt.title("Memory Comparison")
+    leg = plt.legend(loc='upper left')
+    plt.show()
+
+
+def graph_time():
+    x1 = []
+    y1 = []
+    y2 = []
+    for i in range(0, 30):
+        x1.append(i)
+        y1.append(timeMeasureItr(i))
+        y2.append(timeMeasureRec(i))
+    plt.plot(x1, y1, ls = ':', label = "Iteration")
+    plt.plot(x1, y2, ls = '-', label = "Recursion")
+    plt.title("Time Comparison")
+    leg = plt.legend(loc='upper left')
     plt.show()
 
 
 print("This program calculates the nth Faibonacci number and prints time it takes and memory used")
 #number = int(input("Enter the nth Fibonacci number "))
 
-graph()
+graph_time()
