@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db4500c-04d4-47c0-a499-a95abb290f3e" name="Changes" comment="hello">
-      <change afterPath="$PROJECT_DIR$/Linear Search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson Work (ignore)/linear search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Complexity/Complexity Chcker.py" beforeDir="false" afterPath="$PROJECT_DIR$/Complexity/Complexity Chcker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Complexity/Fib.py" beforeDir="false" afterPath="$PROJECT_DIR$/Complexity/Fib.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lesson Work (ignore)/Screenshotting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson Work (ignore)/Screenshotting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linear Search.py" beforeDir="false" afterPath="$PROJECT_DIR$/Linear Search.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
       <recent name="H:\Pycharm\CS work\Tkinter Username Password" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Linear Search">
+  <component name="RunManager" selected="Python.linear search">
     <configuration name="Complexity Chcker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,28 +122,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Screenshotting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CS work" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson Work (ignore)" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson Work (ignore)/Screenshotting.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Tower Of Hanoi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -187,21 +166,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="linear search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CS work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson Work (ignore)" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson Work (ignore)/linear search.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python.Linear Search" />
+      <item itemvalue="Python.linear search" />
       <item itemvalue="Python.Fib" />
-      <item itemvalue="Python.Screenshotting" />
       <item itemvalue="Python.Tower Of Hanoi" />
       <item itemvalue="Python.Complexity Chcker" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.linear search" />
         <item itemvalue="Python.Linear Search" />
         <item itemvalue="Python.Tower Of Hanoi" />
         <item itemvalue="Python.Complexity Chcker" />
         <item itemvalue="Python.Fib" />
-        <item itemvalue="Python.Screenshotting" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +228,7 @@
       <workItem from="1676036764905" duration="1285000" />
       <workItem from="1676368176175" duration="2421000" />
       <workItem from="1676537853023" duration="4374000" />
-      <workItem from="1676641357666" duration="396000" />
+      <workItem from="1676641357666" duration="1148000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1675936607677</created>
@@ -265,6 +266,7 @@
     <SUITE FILE_PATH="coverage/CS_work$Colour_Chooser.coverage" NAME="Colour Chooser Coverage Results" MODIFIED="1676037457489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
     <SUITE FILE_PATH="coverage/CS_work$Linear_Queue.coverage" NAME="Linear Queue Coverage Results" MODIFIED="1669888870048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$2_drawn_graphs.coverage" NAME="2 drawn graphs Coverage Results" MODIFIED="1676369342902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib" />
+    <SUITE FILE_PATH="coverage/CS_work$linear_search.coverage" NAME="linear search Coverage Results" MODIFIED="1676643323135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$Training.coverage" NAME="Training Coverage Results" MODIFIED="1675934862660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib" />
     <SUITE FILE_PATH="coverage/CS_work$Fib.coverage" NAME="Fib Coverage Results" MODIFIED="1676541037000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Complexity" />
     <SUITE FILE_PATH="coverage/CS_work$Complexity_Chcker.coverage" NAME="Complexity Chcker Coverage Results" MODIFIED="1676541709317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Complexity" />

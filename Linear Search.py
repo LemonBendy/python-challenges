@@ -13,3 +13,5 @@ def linear_search(array, result):
 hello= [12,14,123,42,32]
 
 linear_search(hello, 15)
+
+
