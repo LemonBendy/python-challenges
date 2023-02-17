@@ -32,7 +32,7 @@ def FibonacciRec(pos):
 def memMesure(num):
     tracemalloc.start()
     # call Fibonacci Function either recrsive or iterative
-    nth_fibo = FibonacciItr(num)
+    nth_fibo = FibonacciRec(num)
     current, peak = tracemalloc.get_traced_memory()
     print(f"Current memory usage is {current / 10 ** 3}KB; Peak was {peak / 10 ** 3}KB")
     tracemalloc.stop()
@@ -40,7 +40,7 @@ def memMesure(num):
 
 def timeMeasure(num):
     start = timeit.default_timer()
-    nth_fibo = FibonacciItr(num)
+    nth_fibo = FibonacciRec(num)
     end = timeit.default_timer()
     t = (end - start) * 1000000  # time in microseconds. To convert it milliseconds multiply times 1000, and for second multiply by 1
     print("Time of execution is " + str(t) + " microseconds")

@@ -35,7 +35,7 @@ def memMesureItr(num):
     current, peak = tracemalloc.get_traced_memory()
     #print(f"Current memory usage is {current / 10**3}KB; Peak was {peak / 10**3}KB")
     tracemalloc.stop()
-    return (peak+current)/2
+    return peak
 
 
 def memMesureRec(num):
@@ -44,7 +44,7 @@ def memMesureRec(num):
     current, peak = tracemalloc.get_traced_memory()
     #print(f"Current memory usage is {current / 10**3}KB; Peak was {peak / 10**3}KB")
     tracemalloc.stop()
-    return (peak+current)/2
+    return peak
 
 def timeMeasureItr(num):
     start = timeit.default_timer()
