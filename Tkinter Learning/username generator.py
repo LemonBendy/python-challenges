@@ -4,6 +4,7 @@ from tkinter import *
 import random
 import string
 from tkinter.ttk import Combobox
+import pyperclip
 
 
 # function for calculation of password
@@ -51,11 +52,12 @@ def copy1():
 # Main Function
 # create GUI window
 root = Tk()
-root.geometry("400x200")
 var = IntVar()
 var1 = IntVar()
 
 root.title("Random Password Generator")
+root.geometry("450x100")
+root.configure(bg='155, 91, 163')
 
 
 Random_password = Label(root, text="Password")
@@ -70,10 +72,10 @@ copy_button = Button(root, text="Copy", command=copy1)
 copy_button.grid(row=0, column=2)
 generate_button = Button(root, text="Generate", command=generate)
 generate_button.grid(row=0, column=3)
+exitButton = Button(root, text="Exit", width=12, command=quit)
+exitButton.grid(row=3, column=2)
 
-# Radio Buttons for deciding the
-# strength of password
-# Default strength is Medium
+
 radio_low = Radiobutton(root, text="Low", variable=var, value=1)
 radio_low.grid(row=1, column=2, sticky='E')
 radio_middle = Radiobutton(root, text="Medium", variable=var, value=0)
