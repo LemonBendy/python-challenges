@@ -15,3 +15,7 @@ Scripts/*
 *.xml
 .idea/CS work.iml
 share/
+.idea/workspace.xml
+python-challenges/
+.idea/workspace.xml
+*.xml
