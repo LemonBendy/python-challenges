@@ -24,5 +24,5 @@ def main():
 if __name__ == "__main__":
     while True:
         main()
-        if input("Do you want to sort another list? (y/n): ") == "n":
+        if input("Do you want to sort another list? (y/n): ").lower() != "y":
             break
