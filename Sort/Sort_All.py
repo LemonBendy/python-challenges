@@ -2,7 +2,7 @@ import random
 
 def randomList(a):
     list = []
-    for i in range(0, a):
+    for i in range(0, int(a)):
         list.append(random.randint(1, 100))
     return list
 
@@ -15,34 +15,7 @@ def selectionsort(list):
         list[i], list[min] = list[min], list[i]
     return list
 
-def radixSort(list):
-    RADIX = 10
-    maxLength = False
-    tmp , placement = -1, 1
-
-    while not maxLength:
-        maxLength = True
-        # declare and initialize buckets
-        buckets = [list() for _ in range( RADIX )]
-        # split list between lists
-        for  i in list:
-            tmp = i // placement
-            buckets[tmp % RADIX].append( i )
-            if maxLength and tmp > 0:
-                maxLength = False
-        # empty lists into list array
-        a = 0
-        for b in range( RADIX ):
-            buck = buckets[b]
-            for i in buck:
-                list[a] = i
-                a += 1
-        # move to next digit
-        placement *= RADIX
-    return list
-
 def quickSort(list):
-    time1 = time.perf_counter()
     if len(list) <= 1:
         return list
     else:
@@ -67,15 +40,12 @@ def insertionSort(list):
     return list
 
 def bubbleSort(list):
-    time1 = time.perf_counter()
     for passnum in range(len(list)-1,0,-1):
         for i in range(passnum):
             if list[i]>list[i+1]:
                 temp = list[i]
                 list[i] = list[i+1]
                 list[i+1] = temp
-    time2 = time.perf_counter()
-    print(f"Time taken: {time2-time1}")
     return list
 
 def isSorted(list):
@@ -115,4 +85,35 @@ def mergeSort(list):
             k += 1
     return list
 
-def main():
+def menu():
+    num = input("How many numbers would you like to sort: ")
+    print(f"\r")
+    print(f"===== Pick a Sorting Algorithm =====\n"
+          "1. Selection Sort\n"
+          "2. Quick Sort\n"
+          "3. Insertion Sort\n"
+          "4. Bubble Sort\n"
+          "5. Bogosort\n"
+          "6. Merge Sort\n")
+    choice = int(input(">>> "))
+    match choice:
+        case 1:
+            print(selectionsort(randomList(num)))
+            menu()
+        case 2:
+            print(quickSort(randomList(num)))
+            menu()
+        case 3:
+            print(insertionSort(randomList(num)))
+            menu()
+        case 4:
+            print(bubbleSort(randomList(num)))
+            menu()
+        case 5:
+            print(bogosort(randomList(num)))
+            menu()
+        case 6:
+            print(mergeSort(randomList(num)))
+            menu()
+
+menu()
