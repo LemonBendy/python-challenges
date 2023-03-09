@@ -1,5 +1,3 @@
-# bogosort algorithm
-
 import random
 
 def randomList(a):
