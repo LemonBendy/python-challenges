@@ -86,16 +86,16 @@ def mergeSort(list):
     return list
 
 def menu():
-    num = input("How many numbers would you like to sort: ")
-    print(f"\r")
     print(f"===== Pick a Sorting Algorithm =====\n"
           "1. Selection Sort\n"
           "2. Quick Sort\n"
           "3. Insertion Sort\n"
           "4. Bubble Sort\n"
           "5. Bogosort\n"
-          "6. Merge Sort\n")
+          "6. Merge Sort\n"
+          "7. Quit")
     choice = int(input(">>> "))
+    num = input(f"\rHow many numbers would you like to sort: ")
     match choice:
         case 1:
             print(selectionsort(randomList(num)))
@@ -115,5 +115,7 @@ def menu():
         case 6:
             print(mergeSort(randomList(num)))
             menu()
+        case _:
+            quit()
 
 menu()
