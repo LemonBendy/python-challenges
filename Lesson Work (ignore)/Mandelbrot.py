@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-rows = 5000
-cols = 5000
-iterations = 300
+rows = 1000
+cols = 1000
+iterations = 100
 
 
 def mandelbrot(c, z):
