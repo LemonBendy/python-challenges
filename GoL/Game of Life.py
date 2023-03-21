@@ -50,32 +50,39 @@ def draw_grid():
             else:
                 pygame.draw.rect(screen, black, (j * cell_size, i * cell_size, cell_size, cell_size), 0)
 
-#update the grid
-def update_grid():
-    global generation
+#game logic
+def game_logic():
     for i in range(rows):
         for j in range(cols):
-            neighbors = 0
-            for x in range(-1, 2):
-                for y in range(-1, 2):
-                    if x == 0 and y == 0:
-                        continue
-                    if i + x < 0 or i + x >= rows or j + y < 0 or j + y >= cols:
-                        continue
-                    if grid[i + x][j + y] == 1:
-                        neighbors += 1
-            if grid[i][j] == 1:
-                if neighbors < 2 or neighbors > 3:
-                    next_grid[i][j] = 0
-                else:
-                    next_grid[i][j] = 1
+            state = grid[i][j]
+            #count the neighbors
+            neighbors = count_neighbors(grid, i, j)
+            #apply the rules
+            if state == 0 and neighbors == 3:
+                next_grid[i][j] = 1
+            elif state == 1 and (neighbors < 2 or neighbors > 3):
+                next_grid[i][j] = 0
             else:
-                if neighbors == 3:
-                    next_grid[i][j] = 1
-                else:
-                    next_grid[i][j] = 0
-    grid[:] = next_grid[:]
-    generation += 1
+                next_grid[i][j] = state
+
+#update the grid
+def update_grid():
+    for i in range(rows):
+        for j in range(cols):
+            grid[i][j] = next_grid[i][j]
+
+#count the neighbors
+def count_neighbors(grid, x, y):
+    neighbors = 0
+    for i in range(-1, 2):
+        for j in range(-1, 2):
+            col = (x + i + cols) % cols
+            row = (y + j + rows) % rows
+            neighbors += grid[row][col]
+    neighbors -= grid[x][y]
+    return neighbors
+
+
 
 
 #clear grid
