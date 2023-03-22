@@ -20,7 +20,7 @@ def add_new():
         value = input("Name: ")
         if len(value) != 0:
             aircodes[key] = value
-            print(aircodes[key])
+            print(aircodes)
         else:
             print("no null data values allowed")
     else:
