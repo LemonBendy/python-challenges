@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db4500c-04d4-47c0-a499-a95abb290f3e" name="Changes" comment="Game Of Life">
-      <change afterPath="$PROJECT_DIR$/API/ISS position.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API/Weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game Of Life.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QR code reader/Face Swap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QR code reader/QR reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lesson Work (ignore)/Hash Function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prime calc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GoL/Game of Life.py" beforeDir="false" afterPath="$PROJECT_DIR$/GoL/Game of Life.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airport_Codes/Airport_Code.py" beforeDir="false" afterPath="$PROJECT_DIR$/Airport_Codes/Airport_Code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airport_Codes/codes.json" beforeDir="false" afterPath="$PROJECT_DIR$/Airport_Codes/codes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_A-Level/Background_blur.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_A-Level/Background_blur.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_A-Level/Face_Mapping.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_A-Level/Face_Mapping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +56,8 @@
       <recent name="H:\Pycharm\CS work\Tkinter Username Password" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.QR reader">
-    <configuration name="Game of Life" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Face_Mapping">
+    <configuration name="Airport_Code" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,12 +65,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GoL" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Airport_Codes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GoL/Game of Life.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Airport_Codes/Airport_Code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ISS position" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Background_blur" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -87,12 +87,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/API" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project_A-Level" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/API/ISS position.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_A-Level/Background_blur.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Map maker" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Face_Mapping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,12 +109,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GoL" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project_A-Level" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GoL/Map maker.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_A-Level/Face_Mapping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="QR reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Hash Function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,34 +131,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QR code reader" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson Work (ignore)" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QR code reader/QR reader.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Sort_All" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CS work" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Sort" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sort/Sort_All.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson Work (ignore)/Hash Function.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,21 +167,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prime calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CS work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prime calc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
-      <item itemvalue="Python.ISS position" />
-      <item itemvalue="Python.QR reader" />
-      <item itemvalue="Python.Game of Life" />
-      <item itemvalue="Python.Map maker" />
-      <item itemvalue="Python.Sort_All" />
+      <item itemvalue="Python.Airport_Code" />
+      <item itemvalue="Python.Background_blur" />
+      <item itemvalue="Python.Face_Mapping" />
+      <item itemvalue="Python.prime calc" />
+      <item itemvalue="Python.Hash Function" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.QR reader" />
-        <item itemvalue="Python.ISS position" />
-        <item itemvalue="Python.Game of Life" />
-        <item itemvalue="Python.Map maker" />
-        <item itemvalue="Python.Sort_All" />
+        <item itemvalue="Python.Face_Mapping" />
+        <item itemvalue="Python.Background_blur" />
+        <item itemvalue="Python.Airport_Code" />
+        <item itemvalue="Python.prime calc" />
+        <item itemvalue="Python.Hash Function" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +242,8 @@
       <workItem from="1678784376325" duration="3960000" />
       <workItem from="1678956387986" duration="2106000" />
       <workItem from="1679058982193" duration="3111000" />
-      <workItem from="1679388623945" duration="1637000" />
+      <workItem from="1679388623945" duration="3265000" />
+      <workItem from="1679561205040" duration="5224000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1675936607677</created>
@@ -274,8 +275,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Game Of Life" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CS_work$prime_calc.coverage" NAME="prime calc Coverage Results" MODIFIED="1679562300928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS_work$Tower_Of_Hanoi.coverage" NAME="Tower Of Hanoi Coverage Results" MODIFIED="1676542109841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS_work$Face_Mapping.coverage" NAME="Face_Mapping Coverage Results" MODIFIED="1679566039990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
     <SUITE FILE_PATH="coverage/CS_work$Iterative_Binary_Search.coverage" NAME="Iterative Binary Search Coverage Results" MODIFIED="1677751017879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
+    <SUITE FILE_PATH="coverage/CS_work$Airport_Code.coverage" NAME="Airport_Code Coverage Results" MODIFIED="1679564149597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Airport_Codes" />
     <SUITE FILE_PATH="coverage/CS_work$Dictionaru.coverage" NAME="Dictionaru Coverage Results" MODIFIED="1668172808809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$Average_Pulse.coverage" NAME="Average Pulse Coverage Results" MODIFIED="1675935034715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib" />
     <SUITE FILE_PATH="coverage/CS_work$traffic_lights.coverage" NAME="traffic lights Coverage Results" MODIFIED="1675932359013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
@@ -293,6 +297,7 @@
     <SUITE FILE_PATH="coverage/CS_work$Bubble_Sort.coverage" NAME="Bubble Sort Coverage Results" MODIFIED="1678184816809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/CS_work$QR_reader.coverage" NAME="QR reader Coverage Results" MODIFIED="1679061773476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QR code reader" />
     <SUITE FILE_PATH="coverage/CS_work$Abd_s_Tkinter_DEMO.coverage" NAME="Abd's Tkinter DEMO Coverage Results" MODIFIED="1675766111630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
+    <SUITE FILE_PATH="coverage/CS_work$Background_blur.coverage" NAME="Background_blur Coverage Results" MODIFIED="1679564875760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
     <SUITE FILE_PATH="coverage/CS_work$Stack_Implementation.coverage" NAME="Stack Implementation Coverage Results" MODIFIED="1669717124022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$ISS_position.coverage" NAME="ISS position Coverage Results" MODIFIED="1679060735593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
     <SUITE FILE_PATH="coverage/CS_work$Insertion_Sort.coverage" NAME="Insertion Sort Coverage Results" MODIFIED="1678352444517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
@@ -306,6 +311,7 @@
     <SUITE FILE_PATH="coverage/CS_work$Screenshotting.coverage" NAME="Screenshotting Coverage Results" MODIFIED="1676537923374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$Circular_Queue.coverage" NAME="Circular Queue Coverage Results" MODIFIED="1669889584952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1667467642051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/CS_work$Hash_Function.coverage" NAME="Hash Function Coverage Results" MODIFIED="1679393115612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$Airport_Codes.coverage" NAME="Airport Codes Coverage Results" MODIFIED="1668175802453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$BMI_Calculator.coverage" NAME="BMI Calculator Coverage Results" MODIFIED="1675429669469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
   </component>

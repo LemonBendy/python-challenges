@@ -9,7 +9,7 @@ mp_selfie_segmentation = mp.solutions.selfie_segmentation
 bg_color = (192, 192, 192)
 cap = cv2.VideoCapture(0)
 with mp_selfie_segmentation.SelfieSegmentation(model_selection=1) as selfie_segmentation:
-    bg_image = 'Project A-Level\\new_York.jpg'
+    bg_image = None
     while cap.isOpened():
         success, image = cap.read()
         # image = #image.filter(ImageFilter.GaussianBlur(radius=20))

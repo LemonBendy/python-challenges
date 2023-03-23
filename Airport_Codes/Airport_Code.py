@@ -13,28 +13,40 @@ def menu():
     print("   1. Search                       ")
     print("   2. Add New                      ")
     print("   3. Export Original Dictionary   ")
-    print("   4. Leave                        ")
+    print("   4. Print Dictionary             ")
+    print("   5. Leave                        ")
     print("===================================")
-    select = int(input(">>>> "))
+    select = input(">>>> ")
     match select:
-        case 1:
+        case "1":
             search()
-        case 2:
+            menu()
+        case "2":
             add_new()
-        case 3:
+            menu()
+        case "3":
             export()
-        case 4:
+            menu()
+        case "4":
+            with open("codes.json", "r") as file:
+                aircodes = json.load(file)
+                print(aircodes)
+                file.close()
+            menu()
+        case "5":
             quit()
         case other:
-            quit()
+            menu()
 
 def search():
-    key = input("CODE SEARCHING: ")
-    if key not in aircodes:
-        print("NOT IN DICTIONARY, PLEASE TRY AGAIN")
-    else:
+    with open('codes.json', "r") as file:
+        aircodes = json.load(file)
+        file.close()
+    key = str(input("Code: ").upper())
+    if key in aircodes:
         print(f"{aircodes[key]} Airport")
-    menu()
+    else:
+        print("Code not found")
 
 def add_new():
     key = str(input("Code: ").upper())
@@ -47,12 +59,13 @@ def add_new():
             print("no null data values allowed")
     else:
         print("Invalid Data Input, TRY AGAIN")
-    menu()
+
 
 def export():
-    with open("Airport_Codes\codes.json", "w") as file:
+    with open('codes.json', "w") as file:
         json.dump(aircodes, file)
+        file.close()
     print("Exported to codes.json")
-    menu()
+
 
 menu()
