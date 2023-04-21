@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5db4500c-04d4-47c0-a499-a95abb290f3e" name="Changes" comment="Game Of Life">
-      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/Worksheet 2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5db4500c-04d4-47c0-a499-a95abb290f3e" name="Changes" comment="Game Of Life" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,23 +33,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "last_opened_file_path": "H:/Pycharm/CS work",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/Pycharm/CS work&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\Pycharm\CS work\Tkinter Username Password" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.OOP Demo MyPets">
+  <component name="RunManager" selected="Python.Tkinter Video window test">
     <configuration name="Caesar Shift" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,7 +72,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Face_Mapping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Face_Mesh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,7 +85,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_A-Level/Face_Mapping.py" />
+      <option name="SCRIPT_NAME" value="H:\Pycharm\CS work\Project_A-Level\Face_Mesh.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Run-Length Compression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Tkinter Video window test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,12 +146,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lesson Work (ignore)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project_A-Level" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lesson Work (ignore)/Run-Length Compression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_A-Level/Tkinter Video window test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,19 +184,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.Face_Mesh" />
+      <item itemvalue="Python.Tkinter Video window test" />
       <item itemvalue="Python.OOP Demo MyPets" />
       <item itemvalue="Python.Initial_File" />
       <item itemvalue="Python.Caesar Shift" />
-      <item itemvalue="Python.Run-Length Compression" />
-      <item itemvalue="Python.Face_Mapping" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Tkinter Video window test" />
+        <item itemvalue="Python.Face_Mesh" />
         <item itemvalue="Python.OOP Demo MyPets" />
         <item itemvalue="Python.Initial_File" />
         <item itemvalue="Python.Caesar Shift" />
-        <item itemvalue="Python.Run-Length Compression" />
-        <item itemvalue="Python.Face_Mapping" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +242,8 @@
       <workItem from="1680162531923" duration="2121000" />
       <workItem from="1681807626513" duration="35000" />
       <workItem from="1681807676748" duration="2368000" />
-      <workItem from="1681977209784" duration="4682000" />
+      <workItem from="1681977209784" duration="4697000" />
+      <workItem from="1682077975498" duration="4644000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1675936607677</created>
@@ -279,7 +277,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CS_work$prime_calc.coverage" NAME="prime calc Coverage Results" MODIFIED="1679562300928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS_work$Tower_Of_Hanoi.coverage" NAME="Tower Of Hanoi Coverage Results" MODIFIED="1676542109841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS_work$Face_Mapping.coverage" NAME="Face_Mapping Coverage Results" MODIFIED="1679566039990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
+    <SUITE FILE_PATH="coverage/CS_work$Face_Mapping.coverage" NAME="Face_Mapping Coverage Results" MODIFIED="1682080148902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
     <SUITE FILE_PATH="coverage/CS_work$Iterative_Binary_Search.coverage" NAME="Iterative Binary Search Coverage Results" MODIFIED="1677751017879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$Airport_Code.coverage" NAME="Airport_Code Coverage Results" MODIFIED="1679564149597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Airport_Codes" />
     <SUITE FILE_PATH="coverage/CS_work$Dictionaru.coverage" NAME="Dictionaru Coverage Results" MODIFIED="1668172808809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
@@ -288,6 +286,7 @@
     <SUITE FILE_PATH="coverage/CS_work$Colour_Chooser.coverage" NAME="Colour Chooser Coverage Results" MODIFIED="1676037457489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
     <SUITE FILE_PATH="coverage/CS_work$2_drawn_graphs.coverage" NAME="2 drawn graphs Coverage Results" MODIFIED="1676369342902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib" />
     <SUITE FILE_PATH="coverage/CS_work$Fib.coverage" NAME="Fib Coverage Results" MODIFIED="1676541037000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Complexity" />
+    <SUITE FILE_PATH="coverage/CS_work$Tkinter_Video_window_test.coverage" NAME="Tkinter Video window test Coverage Results" MODIFIED="1682081338938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
     <SUITE FILE_PATH="coverage/CS_work$Complexity_Chcker.coverage" NAME="Complexity Chcker Coverage Results" MODIFIED="1676541709317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Complexity" />
     <SUITE FILE_PATH="coverage/CS_work$Linear_Search.coverage" NAME="Linear Search Coverage Results" MODIFIED="1676641608457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS_work$OOP_Demo_MyPets.coverage" NAME="OOP Demo MyPets Coverage Results" MODIFIED="1681980170183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Documents/Downloads" />

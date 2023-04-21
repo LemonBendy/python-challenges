@@ -26,7 +26,7 @@ with mp_face_mesh.FaceMesh(
         while cap.isOpened():
             success, image = cap.read()
             if not success:
-                print("Empty camera frame, ignoring process")#if the camera is not working 
+                print("Empty camera frame, ignoring process")#if the camera is not working
                 continue
             image.flags.writeable = False # Make the image read only
             image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB) # Convert the BGR image to RGB before processing.
