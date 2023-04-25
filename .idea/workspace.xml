@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5db4500c-04d4-47c0-a499-a95abb290f3e" name="Changes" comment="Game Of Life" />
+    <list default="true" id="5db4500c-04d4-47c0-a499-a95abb290f3e" name="Changes" comment="Game Of Life">
+      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/Card Game/Black.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/Card Game/Blackjack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/stack_reuse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,29 +55,7 @@
       <recent name="H:\Pycharm\CS work\Tkinter Username Password" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Tkinter Video window test">
-    <configuration name="Caesar Shift" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CS work" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Encryption" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Encryption/Caesar Shift.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.stack">
     <configuration name="Face_Mesh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,21 +166,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="stack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CS work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Object_Oriented_Programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Object_Oriented_Programming/stack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.stack" />
       <item itemvalue="Python.Face_Mesh" />
       <item itemvalue="Python.Tkinter Video window test" />
       <item itemvalue="Python.OOP Demo MyPets" />
       <item itemvalue="Python.Initial_File" />
-      <item itemvalue="Python.Caesar Shift" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.stack" />
         <item itemvalue="Python.Tkinter Video window test" />
         <item itemvalue="Python.Face_Mesh" />
         <item itemvalue="Python.OOP Demo MyPets" />
         <item itemvalue="Python.Initial_File" />
-        <item itemvalue="Python.Caesar Shift" />
       </list>
     </recent_temporary>
   </component>
@@ -244,6 +250,7 @@
       <workItem from="1681807676748" duration="2368000" />
       <workItem from="1681977209784" duration="4697000" />
       <workItem from="1682077975498" duration="4644000" />
+      <workItem from="1682409592361" duration="5167000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1675936607677</created>
@@ -285,6 +292,7 @@
     <SUITE FILE_PATH="coverage/CS_work$traffic_lights.coverage" NAME="traffic lights Coverage Results" MODIFIED="1675932359013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
     <SUITE FILE_PATH="coverage/CS_work$Colour_Chooser.coverage" NAME="Colour Chooser Coverage Results" MODIFIED="1676037457489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
     <SUITE FILE_PATH="coverage/CS_work$2_drawn_graphs.coverage" NAME="2 drawn graphs Coverage Results" MODIFIED="1676369342902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib" />
+    <SUITE FILE_PATH="coverage/CS_work$stack.coverage" NAME="stack Coverage Results" MODIFIED="1682411692463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming" />
     <SUITE FILE_PATH="coverage/CS_work$Fib.coverage" NAME="Fib Coverage Results" MODIFIED="1676541037000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Complexity" />
     <SUITE FILE_PATH="coverage/CS_work$Tkinter_Video_window_test.coverage" NAME="Tkinter Video window test Coverage Results" MODIFIED="1682081338938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
     <SUITE FILE_PATH="coverage/CS_work$Complexity_Chcker.coverage" NAME="Complexity Chcker Coverage Results" MODIFIED="1676541709317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Complexity" />
