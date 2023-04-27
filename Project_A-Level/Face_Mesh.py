@@ -13,7 +13,7 @@ mp_face_mesh = mp.solutions.face_mesh
 mp_selfie_segmentation = mp.solutions.selfie_segmentation
 
 #web cam setup
-cap = cv2.VideoCapture(0)
+cap  = cv2.VideoCapture(0)
 bg_color = (192, 192, 192)
 
 

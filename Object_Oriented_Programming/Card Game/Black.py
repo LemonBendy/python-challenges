@@ -1,5 +1,6 @@
 from random import shuffle
 
+
 class Table(object):
 
     def __init__(self, player, funds=100):
