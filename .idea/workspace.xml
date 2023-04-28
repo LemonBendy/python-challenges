@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db4500c-04d4-47c0-a499-a95abb290f3e" name="Changes" comment="Game Of Life">
-      <change afterPath="$PROJECT_DIR$/Object_Oriented_Programming/Queues and stacks/Circular Queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project_A-Level/Testing/Tkinter pt2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_Oriented_Programming/Card Game/Black.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_Oriented_Programming/Card Game/Black.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_Oriented_Programming/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_Oriented_Programming/Queues and stacks/stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Object_Oriented_Programming/stack_reuse.py" beforeDir="false" afterPath="$PROJECT_DIR$/Object_Oriented_Programming/Queues and stacks/stack_reuse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_A-Level/Face_Mesh.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_A-Level/Face_Mesh.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_A-Level/Tkinter Video window test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_A-Level/Testing/Tkinter Video window test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project_A-Level/new_York.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project_A-Level/Testing/Tkinter pt2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project_A-Level/Testing/Tkinter pt2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +48,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;H:/Pycharm/CS work&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -65,7 +58,7 @@
       <recent name="H:\Pycharm\CS work\Tkinter Username Password" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Black">
+  <component name="RunManager" selected="Python.Tkinter pt2">
     <configuration name="Black" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,28 +81,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Blackjack" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CS work" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Object_Oriented_Programming/Card Game" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Object_Oriented_Programming/Card Game/Blackjack.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Circular Queue" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CS work" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,6 +95,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Object_Oriented_Programming/Queues and stacks/Circular Queue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Face_Mesh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CS work" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Project_A-Level" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Project_A-Level/Face_Mesh.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,19 +193,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
+      <item itemvalue="Python.Face_Mesh" />
       <item itemvalue="Python.Black" />
-      <item itemvalue="Python.Blackjack" />
       <item itemvalue="Python.Circular Queue" />
       <item itemvalue="Python.Tkinter pt2" />
       <item itemvalue="Python.Tkinter Video window test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Black" />
         <item itemvalue="Python.Tkinter pt2" />
+        <item itemvalue="Python.Face_Mesh" />
+        <item itemvalue="Python.Black" />
         <item itemvalue="Python.Tkinter Video window test" />
         <item itemvalue="Python.Circular Queue" />
-        <item itemvalue="Python.Blackjack" />
       </list>
     </recent_temporary>
   </component>
@@ -262,6 +255,9 @@
       <workItem from="1682077975498" duration="4644000" />
       <workItem from="1682409592361" duration="5167000" />
       <workItem from="1682581651256" duration="5092000" />
+      <workItem from="1682682517304" duration="659000" />
+      <workItem from="1682686615688" duration="88000" />
+      <workItem from="1682686740181" duration="1088000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1675936607677</created>
@@ -293,44 +289,46 @@
     <option name="LAST_COMMIT_MESSAGE" value="Game Of Life" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CS_work$prime_calc.coverage" NAME="prime calc Coverage Results" MODIFIED="1679562300928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS_work$Tower_Of_Hanoi.coverage" NAME="Tower Of Hanoi Coverage Results" MODIFIED="1676542109841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS_work$Face_Mapping.coverage" NAME="Face_Mapping Coverage Results" MODIFIED="1682080148902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
     <SUITE FILE_PATH="coverage/CS_work$Iterative_Binary_Search.coverage" NAME="Iterative Binary Search Coverage Results" MODIFIED="1677751017879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$Airport_Code.coverage" NAME="Airport_Code Coverage Results" MODIFIED="1679564149597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Airport_Codes" />
-    <SUITE FILE_PATH="coverage/CS_work$Dictionaru.coverage" NAME="Dictionaru Coverage Results" MODIFIED="1668172808809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
-    <SUITE FILE_PATH="coverage/CS_work$Blackjack.coverage" NAME="Blackjack Coverage Results" MODIFIED="1682582421908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming/Card Game" />
     <SUITE FILE_PATH="coverage/CS_work$Average_Pulse.coverage" NAME="Average Pulse Coverage Results" MODIFIED="1675935034715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib" />
-    <SUITE FILE_PATH="coverage/CS_work$traffic_lights.coverage" NAME="traffic lights Coverage Results" MODIFIED="1675932359013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
-    <SUITE FILE_PATH="coverage/CS_work$Colour_Chooser.coverage" NAME="Colour Chooser Coverage Results" MODIFIED="1676037457489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
     <SUITE FILE_PATH="coverage/CS_work$2_drawn_graphs.coverage" NAME="2 drawn graphs Coverage Results" MODIFIED="1676369342902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib" />
-    <SUITE FILE_PATH="coverage/CS_work$stack.coverage" NAME="stack Coverage Results" MODIFIED="1682411692463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming" />
     <SUITE FILE_PATH="coverage/CS_work$Fib.coverage" NAME="Fib Coverage Results" MODIFIED="1676541037000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Complexity" />
-    <SUITE FILE_PATH="coverage/CS_work$Tkinter_Video_window_test.coverage" NAME="Tkinter Video window test Coverage Results" MODIFIED="1682584038039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
     <SUITE FILE_PATH="coverage/CS_work$Complexity_Chcker.coverage" NAME="Complexity Chcker Coverage Results" MODIFIED="1676541709317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Complexity" />
-    <SUITE FILE_PATH="coverage/CS_work$Linear_Search.coverage" NAME="Linear Search Coverage Results" MODIFIED="1676641608457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CS_work$OOP_Demo_MyPets.coverage" NAME="OOP Demo MyPets Coverage Results" MODIFIED="1681980170183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Documents/Downloads" />
     <SUITE FILE_PATH="coverage/CS_work$Data_Validator.coverage" NAME="Data Validator Coverage Results" MODIFIED="1668504358387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS_work$Recursive_Binary_Search.coverage" NAME="Recursive_Binary_Search Coverage Results" MODIFIED="1677750484524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
-    <SUITE FILE_PATH="coverage/CS_work$bubble_chart.coverage" NAME="bubble chart Coverage Results" MODIFIED="1676036786260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib" />
     <SUITE FILE_PATH="coverage/CS_work$Map_maker.coverage" NAME="Map maker Coverage Results" MODIFIED="1678784964410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GoL" />
-    <SUITE FILE_PATH="coverage/CS_work$Connect_4.coverage" NAME="Connect 4 Coverage Results" MODIFIED="1669990568072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CS_work$Take_Away.coverage" NAME="Take-Away Coverage Results" MODIFIED="1675762722738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
     <SUITE FILE_PATH="coverage/CS_work$Bubble_Sort.coverage" NAME="Bubble Sort Coverage Results" MODIFIED="1678184816809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
-    <SUITE FILE_PATH="coverage/CS_work$QR_reader.coverage" NAME="QR reader Coverage Results" MODIFIED="1679061773476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QR code reader" />
     <SUITE FILE_PATH="coverage/CS_work$Abd_s_Tkinter_DEMO.coverage" NAME="Abd's Tkinter DEMO Coverage Results" MODIFIED="1675766111630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$Background_blur.coverage" NAME="Background_blur Coverage Results" MODIFIED="1679564875760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
-    <SUITE FILE_PATH="coverage/CS_work$Initial_File.coverage" NAME="Initial_File Coverage Results" MODIFIED="1681809723266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming" />
-    <SUITE FILE_PATH="coverage/CS_work$Stack_Implementation.coverage" NAME="Stack Implementation Coverage Results" MODIFIED="1669717124022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$ISS_position.coverage" NAME="ISS position Coverage Results" MODIFIED="1679060735593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/API" />
-    <SUITE FILE_PATH="coverage/CS_work$Tkinter_pt2.coverage" NAME="Tkinter pt2 Coverage Results" MODIFIED="1682585002546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level/Testing" />
-    <SUITE FILE_PATH="coverage/CS_work$Insertion_Sort.coverage" NAME="Insertion Sort Coverage Results" MODIFIED="1678352444517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
-    <SUITE FILE_PATH="coverage/CS_work$Caesar_Shift.coverage" NAME="Caesar Shift Coverage Results" MODIFIED="1680166777544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Encryption" />
     <SUITE FILE_PATH="coverage/CS_work$Sort_All.coverage" NAME="Sort_All Coverage Results" MODIFIED="1678356884570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/CS_work$Black.coverage" NAME="Black Coverage Results" MODIFIED="1682586693864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming/Card Game" />
-    <SUITE FILE_PATH="coverage/CS_work$Linear_Queue.coverage" NAME="Linear Queue Coverage Results" MODIFIED="1669888870048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$Selection_Sort.coverage" NAME="Selection Sort Coverage Results" MODIFIED="1678354552046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/CS_work$linear_search.coverage" NAME="linear search Coverage Results" MODIFIED="1677574254126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
+    <SUITE FILE_PATH="coverage/CS_work$BMI_Calculator.coverage" NAME="BMI Calculator Coverage Results" MODIFIED="1675429669469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
+    <SUITE FILE_PATH="coverage/CS_work$prime_calc.coverage" NAME="prime calc Coverage Results" MODIFIED="1679562300928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS_work$Face_Mesh.coverage" NAME="Face_Mesh Coverage Results" MODIFIED="1682687164820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
+    <SUITE FILE_PATH="coverage/CS_work$Face_Mapping.coverage" NAME="Face_Mapping Coverage Results" MODIFIED="1682080148902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
+    <SUITE FILE_PATH="coverage/CS_work$Dictionaru.coverage" NAME="Dictionaru Coverage Results" MODIFIED="1668172808809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
+    <SUITE FILE_PATH="coverage/CS_work$Blackjack.coverage" NAME="Blackjack Coverage Results" MODIFIED="1682582421908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming/Card Game" />
+    <SUITE FILE_PATH="coverage/CS_work$traffic_lights.coverage" NAME="traffic lights Coverage Results" MODIFIED="1675932359013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
+    <SUITE FILE_PATH="coverage/CS_work$Colour_Chooser.coverage" NAME="Colour Chooser Coverage Results" MODIFIED="1676037457489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
+    <SUITE FILE_PATH="coverage/CS_work$stack.coverage" NAME="stack Coverage Results" MODIFIED="1682411692463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming" />
+    <SUITE FILE_PATH="coverage/CS_work$Tkinter_Video_window_test.coverage" NAME="Tkinter Video window test Coverage Results" MODIFIED="1682584038039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level" />
+    <SUITE FILE_PATH="coverage/CS_work$Linear_Search.coverage" NAME="Linear Search Coverage Results" MODIFIED="1676641608457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS_work$Recursive_Binary_Search.coverage" NAME="Recursive_Binary_Search Coverage Results" MODIFIED="1677750484524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
+    <SUITE FILE_PATH="coverage/CS_work$bubble_chart.coverage" NAME="bubble chart Coverage Results" MODIFIED="1676036786260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib" />
+    <SUITE FILE_PATH="coverage/CS_work$Connect_4.coverage" NAME="Connect 4 Coverage Results" MODIFIED="1669990568072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CS_work$Take_Away.coverage" NAME="Take-Away Coverage Results" MODIFIED="1675762722738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
+    <SUITE FILE_PATH="coverage/CS_work$QR_reader.coverage" NAME="QR reader Coverage Results" MODIFIED="1679061773476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QR code reader" />
+    <SUITE FILE_PATH="coverage/CS_work$Initial_File.coverage" NAME="Initial_File Coverage Results" MODIFIED="1681809723266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Object_Oriented_Programming" />
+    <SUITE FILE_PATH="coverage/CS_work$Stack_Implementation.coverage" NAME="Stack Implementation Coverage Results" MODIFIED="1669717124022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
+    <SUITE FILE_PATH="coverage/CS_work$Tkinter_pt2.coverage" NAME="Tkinter pt2 Coverage Results" MODIFIED="1682687368431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Project_A-Level/Testing" />
+    <SUITE FILE_PATH="coverage/CS_work$Insertion_Sort.coverage" NAME="Insertion Sort Coverage Results" MODIFIED="1678352444517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
+    <SUITE FILE_PATH="coverage/CS_work$Caesar_Shift.coverage" NAME="Caesar Shift Coverage Results" MODIFIED="1680166777544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Encryption" />
+    <SUITE FILE_PATH="coverage/CS_work$Linear_Queue.coverage" NAME="Linear Queue Coverage Results" MODIFIED="1669888870048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$Training.coverage" NAME="Training Coverage Results" MODIFIED="1675934862660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Matplotlib" />
     <SUITE FILE_PATH="coverage/CS_work$Miracle_Sort.coverage" NAME="Miracle Sort Coverage Results" MODIFIED="1678355023288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/CS_work$Game_of_Life.coverage" NAME="Game of Life Coverage Results" MODIFIED="1679059605136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GoL" />
@@ -340,6 +338,5 @@
     <SUITE FILE_PATH="coverage/CS_work$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1667467642051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/CS_work$Hash_Function.coverage" NAME="Hash Function Coverage Results" MODIFIED="1679393115612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
     <SUITE FILE_PATH="coverage/CS_work$Airport_Codes.coverage" NAME="Airport Codes Coverage Results" MODIFIED="1668175802453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lesson Work (ignore)" />
-    <SUITE FILE_PATH="coverage/CS_work$BMI_Calculator.coverage" NAME="BMI Calculator Coverage Results" MODIFIED="1675429669469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter Learning" />
   </component>
 </project>
