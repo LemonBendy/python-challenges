@@ -1,8 +1,6 @@
-from tkinter import *
+import cv2
 import tkinter
-import cv2 as cv
-import PIL.Image, PIL.ImageTk
-
+from cv2 import MyVideoCapture
 
 class App:
 	def __init__(self, window, window_title, video_source=0):
@@ -31,14 +29,13 @@ class App:
 
 App(tkinter.Tk(), "Window")
 
-class MyVideoCapture(App):
+class MyVideoCapture:
 	def __init__(self, video_source=0):
-		super().__init__(video_source)
-		self.vid = cv.VideoCapture(video_source)
+		self.vid = cv2.VideoCapture(video_source)
 		if not self.vid.isOpened():
 			raise ValueError("Unable to open source", video_source)
-		self.width = self.vid.get(cv.CAP_PROP_FRAME_WIDTH)
-		self.height = self.vid.get(cv.CAP_PROP_FRAME_HEIGHT)
+		self.width = self.vid.get(cv2.CAP_PROP_FRAME_WIDTH)
+		self.height = self.vid.get(cv2.CAP_PROP_FRAME_HEIGHT)
 
 
 	def __del__(self):
@@ -50,7 +47,7 @@ class MyVideoCapture(App):
 		if self.vid.isOpened():
 			ret, frame = self.vid.read()
 			if ret:
-				return (ret, cv.cvtColor(frame, cv.COLOR_BGR2RGB))
+				return (ret, cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
 			else:
 				return (ret, None)
 		else:
