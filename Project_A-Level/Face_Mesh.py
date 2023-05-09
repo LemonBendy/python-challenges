@@ -12,10 +12,9 @@ def mesh():
     mp_face_mesh = mp.solutions.face_mesh
     mp_selfie_segmentation = mp.solutions.selfie_segmentation
 
-mp_drawing = mp.solutions.drawing_utils
-mp_drawing_styles = mp.solutions.drawing_styles
-mp_face_mesh = mp.solutions.face_mesh
-mp_selfie_segmentation = mp.solutions.selfie_segmentation
+    #web cam setup
+    cap  = cv2.VideoCapture(0)
+    bg_color = (192, 192, 192)
 
 
     with mp_face_mesh.FaceMesh(
