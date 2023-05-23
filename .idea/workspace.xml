@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5db4500c-04d4-47c0-a499-a95abb290f3e" name="Changes" comment="Game Of Life">
-      <change afterPath="$PROJECT_DIR$/SQL/MySQL.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5db4500c-04d4-47c0-a499-a95abb290f3e" name="Changes" comment="Game Of Life" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,6 +257,7 @@
       <workItem from="1682686740181" duration="1088000" />
       <workItem from="1683189029556" duration="1529000" />
       <workItem from="1683287276982" duration="667000" />
+      <workItem from="1684499938406" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="hello">
       <created>1675936607677</created>
